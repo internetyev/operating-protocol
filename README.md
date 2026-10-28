@@ -2,10 +2,11 @@
 
 A protocol for how an AI agent answers in chat: the answer first, one matter per turn, no invented names, and a short menu of next steps instead of a wall of text. It exists so that the person keeps steering the conversation instead of reading padding.
 
-The protocol is one file, in two languages:
+The protocol is one file, in three languages:
 
 - [operating-protocol.md](operating-protocol.md) - English
 - [operating-protocol-uk.md](operating-protocol-uk.md) - Ukrainian / українська
+- [operating-protocol-es.md](operating-protocol-es.md) - Spanish / español
 
 ## Why
 
@@ -34,7 +35,7 @@ Copy the contents of the protocol file into the file your agent reads at the sta
 | Cursor | a file under `.cursor/rules/` |
 | A chat assistant with custom instructions | the custom instructions or system prompt field |
 
-The Ukrainian version is a full replacement, not an addition: use one language or the other, so the agent reads one copy of each rule.
+Each translation is a full replacement, not an addition: use one language, so the agent reads one copy of each rule.
 
 The Breach signal is the part people skip. A single `x` as a reply means the protocol was breached and the answer is to be corrected, not explained. It only works if the agent has the protocol in context, so keep it in a file the agent reloads, not in a message from an hour ago.
 
