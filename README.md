@@ -8,6 +8,10 @@ The protocol is one file, in three languages:
 - [operating-protocol-uk.md](operating-protocol-uk.md) - Ukrainian / українська
 - [operating-protocol-es.md](operating-protocol-es.md) - Spanish / español
 
+One shortened variant exists for a field with a character limit:
+
+- [operating-protocol-uk-chatgpt.md](operating-protocol-uk-chatgpt.md) - Ukrainian, for ChatGPT custom instructions. The full Ukrainian file is 6292 characters and the ChatGPT field takes about 5000, so this copy drops the Principles section (it repeats the Overview) and folds four Overview items into the rules that already state them. Every rule keeps its full wording; it is 4735 characters.
+
 ## Why
 
 Left to themselves, agents answer long. A question gets three paragraphs of setup before the fact, every option at once instead of the next decision, and a new word invented for a thing that already had a name. Each of those costs the reader time and the author a correction.
@@ -34,6 +38,7 @@ Copy the contents of the protocol file into the file your agent reads at the sta
 | Gemini CLI | `GEMINI.md` |
 | Cursor | a file under `.cursor/rules/` |
 | A chat assistant with custom instructions | the custom instructions or system prompt field |
+| ChatGPT | the custom instructions field, which holds about 5000 characters; use `operating-protocol-uk-chatgpt.md` for Ukrainian |
 
 Each translation is a full replacement, not an addition: use one language, so the agent reads one copy of each rule.
 
