@@ -8,10 +8,18 @@ The protocol is one file, in three languages:
 - [operating-protocol-uk.md](operating-protocol-uk.md) - Ukrainian / українська
 - [operating-protocol-es.md](operating-protocol-es.md) - Spanish / español
 
+Each file also has an SEO edition, the same text plus a closing Vocabulary section that points the agent to the SEO glossary at https://github.com/internetyev/seo-glossary and to the glossary skill that ships with it (for Claude Code, OpenAI Codex and Gemini CLI). Use the SEO edition for an agent that writes search or content deliverables; the plain file otherwise.
+
+- [operating-protocol-seo.md](operating-protocol-seo.md) - English, SEO edition
+- [operating-protocol-uk-seo.md](operating-protocol-uk-seo.md) - Ukrainian, SEO edition
+- [operating-protocol-es-seo.md](operating-protocol-es-seo.md) - Spanish, SEO edition
+
 Two shortened variants exist for the ChatGPT custom instructions field, which takes about 5000 characters. Each drops the Principles section (it repeats the Overview) and folds four Overview items into the rules that already state them. Every rule keeps its full wording.
 
 - [operating-protocol-chatgpt.md](operating-protocol-chatgpt.md) - English, 4083 characters (the full file is 5221)
 - [operating-protocol-uk-chatgpt.md](operating-protocol-uk-chatgpt.md) - Ukrainian, 4735 characters (the full file is 6292)
+- [operating-protocol-chatgpt-seo.md](operating-protocol-chatgpt-seo.md) - English, SEO edition, 4242 characters
+- [operating-protocol-uk-chatgpt-seo.md](operating-protocol-uk-chatgpt-seo.md) - Ukrainian, SEO edition, 4883 characters
 
 ## Origin
 
@@ -58,7 +66,7 @@ The Breach signal is the part people skip. A single `x` as a reply means the pro
 
 ## Vocabulary
 
-Rule 9 forbids coining a label, which only works when there is an agreed list of words to use instead. For search and content work that list is the SEO glossary: https://github.com/internetyev/seo-glossary - read it before writing, use only the terms in it, and ask before adding one. The glossary also holds a table of rejected terms with the word that replaces each one.
+Rule 9 forbids coining a label, which only works when there is an agreed list of words to use instead. For search and content work that list is the SEO glossary: https://github.com/internetyev/seo-glossary - read it before writing, use only the terms in it, and ask before adding one. The glossary also holds a table of rejected terms with the word that replaces each one. The SEO editions above carry this instruction inside the protocol file itself, so the agent reads it with the rules.
 
 ## License
 
