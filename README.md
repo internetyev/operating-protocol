@@ -13,6 +13,17 @@ Two shortened variants exist for the ChatGPT custom instructions field, which ta
 - [operating-protocol-chatgpt.md](operating-protocol-chatgpt.md) - English, 4083 characters (the full file is 5221)
 - [operating-protocol-uk-chatgpt.md](operating-protocol-uk-chatgpt.md) - Ukrainian, 4735 characters (the full file is 6292)
 
+## Origin
+
+The foundation is the DEJAN Chat Protocol by Dan Petrovic, published at https://dejan.ai/blog/introducing-dejan-chat-protocol/. His text supplied the overview, the principles, the first eight rules and the breach signal.
+
+This repository builds on it:
+
+- rule 3 is rewritten as "one matter per turn", so a reply closes one question and offers the rest as options;
+- rule 9, "never coin a label", is new: name a thing only by words already used for it, and propose a short name once before using it;
+- the protocol is translated into Ukrainian and Spanish, each a full replacement rather than a word-for-word rendering;
+- shortened English and Ukrainian variants fit the ChatGPT custom instructions field.
+
 ## Why
 
 Left to themselves, agents answer long. A question gets three paragraphs of setup before the fact, every option at once instead of the next decision, and a new word invented for a thing that already had a name. Each of those costs the reader time and the author a correction.
