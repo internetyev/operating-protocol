@@ -70,7 +70,13 @@ Andriy Terentyev, SEO consultant: https://terentyev.net
 
 In SEO for over 15 years in-house and as a consultant. SEO Strategy Advisor at KyivIndependent.com, former SEO Lead at Kiwi.com, and before that COO, CTO and CEO in tech startups. Niches: travel, news, SaaS and ecommerce.
 
-For the last three years I have worked solo, doing the work of a full SEO team with my proprietary SEO tools ([corgiseo.com](https://corgiseo.com)) and a set of AI agents. This protocol is the set of rules those agents answer by. What I take on: technical SEO of large sites, SEO automation and QA monitoring, AI-assisted content pipelines, SEO data harvesting and competitive intelligence, and custom LLM and skill setups for SEO and SEM tasks.
+For the last three years I have worked solo, doing the work of a full SEO team with my proprietary SEO tools ([corgiseo.com](https://corgiseo.com)) and a set of AI agents. This protocol is the set of rules those agents answer by. Write me for:
+
+- technical SEO of large sites,
+- SEO automation and QA monitoring,
+- AI-assisted content pipelines,
+- SEO competitive intelligence, and
+- custom AI agents for on-page SEO and linkbuilding, various SEO, GEO, SEM and social media tasks.
 
 Pet project: https://corgiseo.com, an SEO data layer for AI agents.
 
